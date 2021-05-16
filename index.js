@@ -13,7 +13,7 @@ const setRandomColor = () => {
   const randomIndexColor = randomIntegerFromInterval(0, 5);
   switcher.firstElementChild.style.backgroundColor = colors[randomIndexColor];
 };
-const switcher = document.querySelector(".switcher");
+const switcher = document.querySelector(".switcher" );
 let randomColor = null;
 let isIntervalFunctionWork = false;
 const changeColor = elem => {
